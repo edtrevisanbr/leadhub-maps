@@ -449,6 +449,10 @@
   display: none;
 }
 
+.wrapper {
+  width: 414px;
+}
+
 .todos-os-mapasaberto {
   display: none; /* Adicione esta linha */
   flex-direction: column;
@@ -458,6 +462,7 @@
   width: 414px;
   height: 872px;
 }
+
 
 
 
@@ -520,6 +525,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .controle-social-no {
   position: relative;
   text-transform: uppercase;

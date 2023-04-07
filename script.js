@@ -1,17 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const indexClosed = document.getElementById("index-closed-inner");
+  const indexClosed = document.getElementById("index-closed");
   const indexOpened = document.getElementById("index-opened");
 
   const openButton = indexClosed.querySelector(".fechar-collapse");
   const closeButton = indexOpened.querySelector(".fechar-collapse1");
 
   openButton.addEventListener("click", function () {
-    indexClosed.parentNode.classList.add("hidden"); // Altere esta linha
-    indexOpened.classList.remove("hidden");
+    indexClosed.style.display = "none";
+    indexOpened.style.display = "flex";
   });
 
   closeButton.addEventListener("click", function () {
-    indexClosed.parentNode.classList.remove("hidden"); // Altere esta linha
-    indexOpened.classList.add("hidden");
+    indexClosed.style.display = "flex";
+    indexOpened.style.display = "none";
   });
 });
