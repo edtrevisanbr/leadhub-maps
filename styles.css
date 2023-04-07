@@ -444,12 +444,22 @@
   justify-content: flex-start;
   gap: var(--gap-2xs);
 }
-.todos-os-mapasaberto {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+
+.hidden {
+  display: none;
 }
+
+.todos-os-mapasaberto {
+  display: none; /* Adicione esta linha */
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #f3f3f3;
+  width: 414px;
+  height: 872px;
+}
+
+
 
 .post-maps-single-opened {
   position: relative;
