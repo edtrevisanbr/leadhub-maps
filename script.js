@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeButton = indexOpened.querySelector(".fechar-collapse1");
 
   openButton.addEventListener("click", function () {
-    indexClosed.closest("#index-closed").classList.add("hidden");
+    indexClosed.parentNode.classList.add("hidden"); // Altere esta linha
     indexOpened.classList.remove("hidden");
   });
 
   closeButton.addEventListener("click", function () {
-    indexClosed.closest("#index-closed").classList.remove("hidden");
+    indexClosed.parentNode.classList.remove("hidden"); // Altere esta linha
     indexOpened.classList.add("hidden");
   });
 });
