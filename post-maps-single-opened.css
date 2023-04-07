@@ -1,0 +1,121 @@
+.bg-grey-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  width: 1120px;
+  height: 590px;
+}
+.todos-os-mapas2 {
+  margin: 0;
+  position: absolute;
+  top: 38px;
+  left: 30px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-nunito-sans);
+  color: var(--color-mediumseagreen-200);
+  display: flex;
+  align-items: flex-end;
+  width: 205px;
+  height: 22px;
+}
+.number {
+  position: relative;
+}
+.number-box {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumseagreen-100);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-nunito-sans);
+  color: var(--color-cornflowerblue);
+}
+.left,
+.right,
+.square-roundedtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.left,
+.right {
+  position: absolute;
+  top: 95px;
+  left: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.right {
+  top: 96px;
+  left: 573px;
+}
+.fechar,
+.vector-icon14 {
+  position: relative;
+  flex-shrink: 0;
+}
+.vector-icon14 {
+  width: 16px;
+  height: 8.73px;
+}
+.fechar {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-nunito-sans);
+  color: var(--color-steelblue);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  width: 54px;
+}
+.fechar-collapse1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs);
+  background-color: transparent;
+  position: absolute;
+  top: 23px;
+  left: 1001px;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.todos-os-mapasaberto {
+  position: absolute;
+  top: 84px;
+  left: 68px;
+  width: 1120px;
+  height: 592px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.post-maps-single-opened {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 726px;
+  overflow: hidden;
+}
